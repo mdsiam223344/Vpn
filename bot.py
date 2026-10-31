@@ -24,7 +24,7 @@ ADMIN_IDS = {
     if x.strip().isdigit()
 }
 DB_PATH = os.getenv("DB_PATH", "shop.db")
-SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "@updatechannle1)
+SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "@updatechannle1")
 CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/updatechannle1")
 PAYMENT_DETAILS = os.getenv(
     "PAYMENT_DETAILS",
