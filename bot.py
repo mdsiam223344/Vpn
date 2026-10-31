@@ -18,14 +18,14 @@ from telegram.ext import (
 # Python 3.10+ | python-telegram-bot 21.x | Polling
 # ============================================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8535271767:AAGASCq-ncUEGY5IYnszNs_WOGQ8xlewOoY").strip()
 ADMIN_IDS = {
-    int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",")
+    int(x.strip()) for x in os.getenv("ADMIN_IDS", "1686274364").split(",")
     if x.strip().isdigit()
 }
 DB_PATH = os.getenv("DB_PATH", "shop.db")
-SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "@your_support")
-CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/your_channel")
+SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "@updatechannle1)
+CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/updatechannle1")
 PAYMENT_DETAILS = os.getenv(
     "PAYMENT_DETAILS",
     "bKash: YOUR_NUMBER\nNagad: YOUR_NUMBER\nRocket: YOUR_NUMBER"
